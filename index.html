@@ -1,61 +1,23 @@
-﻿<head>
-<script>
-function klassin(o){
- //clipboardData.setData("Text",o.name);
- lgnfrm.UserName.value=o.name;
- lgnfrm.Password.value=o.title;
- lgnfrm.submit();
-}
-</script>
-<style>
-input{
-width:180;
-}
-</style>
-</head>
-<body>
-<form id="lgnfrm" action="https://www.yaklass.ru/Account/Login" method="post" style="display='none'">
-<input name="UserName" id="UserName" type="hidden" value="">
-<input name="Password" id="Password" type="hidden" value="">
-<input id="ReturnUrl" name="ReturnUrl" type="hidden" value="http://www.yaklass.ru/p/">
-</form>
-<center>
-<pre>
-<h1>Якласс</h1>
+﻿<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Вход в Якласс</title>
+ </head>
+ <body>  
+ <center>
+ 	<h1>Вход в Якласс</h1>
 
-<input type='button' value="Бабаев Даниил" name="BabaevDaniil" title="8" onclick="klassin(this)">
-<input type='button' value="Бордукова Алина" name="Бордукова Алина" title="8" onclick="klassin(this)">
-<input type='button' value="Громова Анна" name="Громова_Анна" title="8" onclick="klassin(this)">
-<input type='button' value="Ефименко Александр" name="Ефименко_Александр" title="8" onclick="klassin(this)">
-<input type='button' value="Захарова Анастасия" name="ZaharovaAnastasia" title="8" onclick="klassin(this)">
-<input type='button' value="Захарова Наталья" name="ZaharovaNatalia" title="8" onclick="klassin(this)">
-<input type='button' value="Зинькевич Полина" name="ZinkevichPolina" title="8" onclick="klassin(this)">
-<input type='button' value="Ивакин Роман" name="r19.schl5.user+7A_Ivakin@gmail.com" title="8" onclick="klassin(this)">
-<input type='button' value="Иванов Богдан" name="Ivanov_Bogdan" title="8" onclick="klassin(this)">
-<input type='button' value="Иноземцев Игнат" name="Иноземцев Игнат" title="8" onclick="klassin(this)">
-<input type='button' value="Ищенко Дмитрий" name="IshenkoDima" title="8" onclick="klassin(this)">
-<input type='button' value="Кабина Мария" name="KabinaMaria" title="8" onclick="klassin(this)">
-<input type='button' value="Кривошеин Кирилл" name="KrivosheinKirill" title="8" onclick="klassin(this)">
-<input type='button' value="Малиновский Вячеслав" name="Малиновский Вячеслав" title="8" onclick="klassin(this)">
-<input type='button' value="Медведева Оксана" name="r19.schl5.user+7A_Medvedeva@gmail.com" title="8" onclick="klassin(this)">
-<input type='button' value="Мякота Вадим" name="MyakotaVadim" title="8" onclick="klassin(this)">
-<input type='button' value="Наев Максим" name="NaevMaksim" title="8" onclick="klassin(this)">
-<input type='button' value="Назаров Константин" name="NazarovKonstantin" title="8" onclick="klassin(this)">
-<input type='button' value="Паймухин Олег" name="r19.schl5.user+7A_Paimuhin@gmail.com" title="8" onclick="klassin(this)">
-<input type='button' value="Попова Ульяна" name="r19.schl5.user+7A_Popova@gmail.com" title="8" onclick="klassin(this)">
-<input type='button' value="Скрипальщикова Маша" name="Скрипальщикова Маша" title="8" onclick="klassin(this)">
-<input type='button' value="Слободенюк Софья" name="Слободенюк Софья Александровна" title="8" onclick="klassin(this)">
-<input type='button' value="Сычова Виктория" name="SichovaViktoriya" title="8" onclick="klassin(this)">
-<input type='button' value="Тагоев Аким" name="Тагоев Аким" title="8" onclick="klassin(this)">
-<input type='button' value="Толкунова Дарья" name="r19.schl5.user+7A_Tolkunova@gmail.com" title="8" onclick="klassin(this)">
-<input type='button' value="Томилина Алена" name="r19.schl5.user+7A_Tomilina@gmail.com" title="8" onclick="klassin(this)">
-<input type='button' value="Тырин Максим" name="r19.schl5.user+7A_Tirin@gmail.com" title="8" onclick="klassin(this)">
-<input type='button' value="Фомина Софья" name="FominaSofiya" title="8" onclick="klassin(this)">
-<input type='button' value="Цыпленкова Виктория" name="TsiplenkovaViktoriya" title="8" onclick="klassin(this)">
-<input type='button' value="Якубов Роман" name="rmnkbv@gmail.com" title="8" onclick="klassin(this)">
+   <p><select size="1" onchange="top.location=this.value">
+    <option selected disabled>Выберите свой класс</option>
+    <option value="5_20_8A_yakl.html">8 А</option>
+    <option value="5_20_8B_yakl.html">8 Б</option>
+    <option value="5_20_8V_yakl.html">8 В</option>
+    <option value="5_20_8I_yakl.html">8 И</option>
 
 
-</pre>
-</center>
+   </select></p>
+ </center>
 
-</body>
+ </body>
+</html>
