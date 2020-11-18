@@ -8,3 +8,10 @@
     border-radius: 15px;
     background-color: #c7b39b;
  }
+.cite_red{
+    width: 50%;
+    text-align: left;
+    padding: 10pt;
+	font-size:14pt;
+	color: red;
+}
